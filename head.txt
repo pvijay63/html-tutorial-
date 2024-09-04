@@ -1,0 +1,264 @@
+HTML --- stands for hyper text markup language 
+this markup language is used to develop the web pages 
+Html elements tell the browser to display the content
+TAG in html:
+In HTML, a tag is a keyword that indicates the beginning and end of an HTML element. Tags are used to define how a web browser should format and display a web page
+
+ELEMENT:
+An HTML element is defined by a start tag, some content, and an end tag:
+
+<tagname> Content goes here... </tagname>
+The HTML element is everything from the start tag to the end tag:
+
+<h1>My First Heading</h1>
+Example
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6</h6>
+
+Example
+Heading 1
+Heading 2
+Heading 3
+Heading 4
+Heading 5
+Heading 6
+
+
+
+The <!DOCTYPE html> declaration defines that this document is an HTML5 document
+The <html> element is the root element of an HTML page
+The <head> element contains meta information about the HTML page
+The <title> element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab)
+The <body> element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.
+The <h1> element defines a large heading
+The <p> element defines a paragraph
+
+HTML Headings;-----
+HTML headings are defined with the <h1> to <h6> tags.
+<h1> defines the most important heading. <h6> defines the least important heading:
+
+HTML Links
+HTML links are defined with the <a> tag:
+Example
+<a href="https://google.com">This is a link</a>
+
+HTML Images
+HTML images are defined with the <img> tag.
+
+The source file (src), alternative text (alt), width, and height are provided as attributes:
+
+Example
+<img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142">
+
+Empty HTML Elements
+HTML elements with no content are called empty elements.
+
+The <br> tag defines a line break, and is an empty element without a closing tag:
+
+The style Attribute
+The style attribute is used to add styles to an element, such as color, font, size, and more.
+
+Example
+<p style="color:red;">This is a red paragraph.</p>
+
+The title Attribute
+The title attribute defines some extra information about an element.
+Example
+<p title="I'm a tooltip">This is a paragraph.</p>
+
+The HTML <pre> Element
+The HTML <pre> element defines preformatted text.
+example 
+<pre>
+the one hundred rupees cant be wealth.
+</pre>
+
+Background Color
+The CSS background-color property defines the background color for an HTML element.
+Example
+Set the background color for a page to powderblue:
+
+<body style="background-color:powderblue;">
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+
+Text Color
+The CSS color property defines the text color for an HTML element:
+
+Example
+<h1 style="color:blue;">This is a heading</h1>
+<p style="color:red;">This is a paragraph.</p>
+Fonts
+The CSS font-family property defines the font to be used for an HTML element:
+
+Example
+<h1 style="font-family:verdana;">This is a heading</h1>
+<p style="font-family:courier;">This is a paragraph.</p>
+
+Text Size
+The CSS font-size property defines the text size for an HTML element:
+
+Example
+<h1 style="font-size:300%;">This is a heading</h1>
+<p style="font-size:160%;">This is a paragraph.</p>
+
+Text Alignment
+The CSS text-align property defines the horizontal text alignment for an HTML element:
+
+Example
+<h1 style="text-align:center;">Centered Heading</h1>
+<p style="text-align:center;">Centered paragraph.</p>
+
+HTML Formatting Elements
+Formatting elements were designed to display special types of text:
+
+<b> - Bold text
+<strong> - Important text
+<i> - Italic text
+<em> - Emphasized text
+<mark> - Marked text
+<small> - Smaller text
+<del> - Deleted text
+<ins> - Inserted text
+<sub> - Subscript text
+<sup> - Superscript text
+
+HTML <address> for Contact Information
+The HTML <address> tag defines the contact information for the author/owner of a document or an article.
+
+What is CSS?
+Cascading Style Sheets (CSS) is used to format the layout of a webpage.
+
+Using CSS
+CSS can be added to HTML documents in 3 ways:
+
+Inline - by using the style attribute inside HTML elements
+Internal - by using a <style> element in the <head> section
+External - by using a <link> element to link to an external CSS file
+
+Inline CSS
+An inline CSS is used to apply a unique style to a single HTML element.
+
+An inline CSS uses the style attribute of an HTML element.
+
+The following example sets the text color of the <h1> element to blue, and the text color of the <p> element to red:
+
+Example
+<h1 style="color:blue;">A Blue Heading</h1>
+
+<p style="color:red;">A red paragraph.</p>
+
+Internal CSS
+An internal CSS is used to define a style for a single HTML page.
+
+An internal CSS is defined in the <head> section of an HTML page, within a <style> element.
+Example
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {background-color: powderblue;}
+h1   {color: blue;}
+p    {color: red;}
+</style>
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+External CSS
+An external style sheet is used to define the style for many HTML pages.
+
+To use an external style sheet, add a link to it in the <head> section of each HTML page:
+
+Example
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+</body>
+</html>
+
+"styles.css":
+body {
+  background-color: powderblue;
+}
+h1 {
+  color: blue;
+}
+p {
+  color: red;
+}
+CSS Border
+The CSS border property defines a border around an HTML element.
+
+Tip: You can define a border for nearly all HTML elements.
+
+Example
+Use of CSS border property: 
+
+p {
+  border: 2px solid powderblue;
+}
+
+CSS Padding
+The CSS padding property defines a padding (space) between the text and the border.
+
+Example
+Use of CSS border and padding properties:
+
+p {
+  border: 2px solid powderblue;
+  padding: 30px;
+}
+
+CSS Margin
+The CSS margin property defines a margin (space) outside the border.
+
+Example
+Use of CSS border and margin properties:
+
+p {
+  border: 2px solid powderblue;
+  margin: 50px;
+}
+
+Link to External CSS
+External style sheets can be referenced with a full URL or with a path relative to the current web page.
+
+Example
+This example uses a full URL to link to a style sheet:
+
+<link rel="stylesheet" href="https://www.w3schools.com/html/styles.css">
+
+HTML Links - The target Attribute
+By default, the linked page will be displayed in the current browser window. To change this, you must specify another target for the link.
+
+The target attribute specifies where to open the linked document.
+
+The target attribute can have one of the following values:
+
+_self - Default. Opens the document in the same window/tab as it was clicked
+_blank - Opens the document in a new window or tab
+_parent - Opens the document in the parent frame
+_top - Opens the document in the full body of the window
+Example
+Use target="_blank" to open the linked document in a new browser window or tab:
+
+<a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a>
