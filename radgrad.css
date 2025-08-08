@@ -1,0 +1,36 @@
+#rad1{
+    width: 700px;
+    height: 400px;
+    background-image: radial-gradient(red,yellow ,blue);
+   float: left;
+}
+#rad2{
+    width: 700px;
+    height: 400px;
+    background-image: radial-gradient(circle,red,yellow ,blue);
+    float:right;
+}
+#farside{
+    width: 800px;
+    height: 500px;
+    background-image: radial-gradient(farthest-side at 35% 45%,red,yellow,blue);
+    float: left;
+}
+#closeside{
+    width:600px ;
+    height: 400px;
+    background-image: radial-gradient(closest-side at 45% 25%,red,yellow,blue);
+    float: right;
+}
+#farcorner{
+    width: 500px;
+    height: 300px;
+    background-image: radial-gradient(farthest-corner at 65% 45%,green,red,black);
+    float: left;
+}
+#closecorner{
+    width: 700px;
+    height: 400px;
+    background-image: radial-gradient(closest-corner at 55% 35%,red ,black,blue);
+    float: right;
+}
